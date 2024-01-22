@@ -1,0 +1,125 @@
+@media (max-width: 1366px) {
+    .container {
+        width: 860px;
+    }
+
+    .galaxy__text {
+        font-size: 532px;
+    }
+}
+
+@media (max-width: 920px) {
+    .container {
+        width: 728px;
+    }
+
+    .galaxy__text {
+        font-size: 455px;
+    }
+
+    .header__navigation-link a {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body,
+    .galaxy {
+        min-height: unset;
+    }
+
+    .container {
+        width: 470px;
+    }
+
+    .header__navigation-menu {
+        display: none;
+        position: absolute;
+        top: 105px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 470px;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+
+    .header__navigation-link a {
+        margin-right: 0;
+    }
+
+    .header__navigation-menu-toggle svg {
+        display: block;
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+        margin-left: 30px;
+        fill: #f2e1c2;
+    }
+
+    .galaxy__text {
+        font-size: 295px;
+    }
+
+    .modal__header-text {
+        font-size: 70px;
+    }
+
+    .modal__inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal__input {
+        width: 100%;
+    }
+
+    .modal__inner button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 360px;
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .galaxy__text {
+        font-size: 295px;
+    }
+
+    .header__navigation-menu {
+        flex-direction: column;
+        top: 80px;
+    }
+
+    .header__navigation-menu .header__navigation-button {
+        display: block;
+        margin: 20px 0;
+        width: 50%;
+        text-align: center;
+    }
+
+    .header__navigation-button {
+        display: none;
+    }
+
+    .galaxy__text {
+        font-size: 210px;
+    }
+
+    .modal__header-text {
+        font-size: 45px;
+    }
+
+    .galaxy__point {
+        margin-top: 215px;
+    }
+
+}
